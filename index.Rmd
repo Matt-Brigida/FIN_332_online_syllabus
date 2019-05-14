@@ -1,0 +1,297 @@
+---
+title: 
+date: "January 15, 2019"
+output: 
+  rmdformats::html_clean:
+    highlight: kate
+---
+
+```{r knitr_init, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Syllabus (FIN 332) Fundamentals of Investments
+<br>
+<br>
+<center>
+<b>SUNY POLYTECHNIC INSTITUTE</b>
+
+<b>SCHOOL OF BUSINESS ADMINISTRATION</b>
+</center>
+<br>
+<br>
+**Instructor**: Matthew Brigida, Ph.D.
+
+**Office**: Donovan 1277
+
+**Office Hours**: Tuesday 4:00--6:00 and Monday/Wednesday 11:00--12:00
+
+**Email**: matthew.brigida@sunyit.edu
+
+**Class Location**:  *Hybrid*, DON 1146.
+
+**Class Day/Time**: MW, 12:00---1:50pm
+
+**Text**: [*Investments* by Bodie, Kane, and Marcus, 8th edition (or later), ISBN: 0077261453](http://www.amazon.com/Investments-8th-Edition-Zvi-Bodie/dp/0077261453/ref=sr_1_5?ie=UTF8&qid=1407685749&sr=8-5&keywords=investment+bodie+kane+marcus)
+
+**Supplementary Materials**: [5-Minute Finance](https://www.5minutefinance.org/).
+
+## Description
+
+An introductory survey of the fundamental principles of investment management.
+The learning outcomes for this course are summarized below:
+
+#.  Understanding the structure of various capital markets, as well as how and why organizations
+(ranging from individuals to multinational firms) participate in these markets. Particular importance will
+be assigned to innovations in market structures (dark pools, ECNs) and their implications for market
+participants. The student will be able to set up buy and sell orders for various securities, as well as
+understand the use of leverage inherent in margin accounts and some derivative securities.
+#. To extend previous study on equity and fixed income security valuation. Further, we will introduce
+and value hybrid securities which have characteristics of both debt and equity (particularly convertible
+bonds). Valuing the warrant in a convertible bond will also serve as a prelude to derivative securities.  
+#. Quantify the interest rate risk in fixed income securities using duration and convexity. Moreover, the
+student will be able to discuss the allocation of interest rate risk between lender and borrower in fixed
+rate as compared to adjustable rate securities.
+#. Assess reinvestment risk in fixed income securities and the benefits inherent in the option to prepay. 
+#. This course will also introduce exchange­listed derivative securities (futures and options), along with
+basic hedging and speculation strategies using these securities. Students will also learn about the
+markets wherein derivatives are traded, and how laws governing these markets may differ from the laws
+governing the stock markets. A basic introduction to valuing futures on storable commodities,
+currencies, and interest rates will be afforded. We will then briefly discuss futures on non­storable commodities (particularly electricity). Lastly, using Excel students will apply the Black­Scholes (1973)
+option pricing model to valuing options on non­dividend paying stock. The assumptions of
+Black­Scholes (1973) will be discusses along with a non­rigorous introduction to risk neutral pricing
+(intended to motivate further study).
+#. Students will be able to measure the risk and return of individual securities as well as of a portfolio of
+multiple risky securities. The effect of forming a portfolio on risk and expected return will be quantified,
+as well as the resulting implications for forming an efficient portfolio. We will derive the Capital Asset
+Pricing Model (CAPM) and thereby calculate the expected return for individual securities. A short
+discussion of the assumptions of the CAPM and the alternative 'Arbitrage Pricing Theory' (APT) will
+conclude.
+
+## Course Objectives and Learning Outcomes:
+
+Upon successful completion of the course each student will be able to:
+
+1. Understand and express factual knowledge, principles and theories in the area of investments,
+
+2. Exhibit creative problem-solving skills and refined reasoning capabilities in the area of investment selection and management,
+
+3. Recognize the need for a broad-based, general education as a useful tool to understand the financial markets,
+
+4. Understand the growing importance of globalization on both the investment process and on security markets,
+ 
+5. Show an awareness of the various issues and developments that constantly reshape financial markets and investment choices.
+
+## Learning Goals and Objectives
+<center>
+
+```{r goals, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tabl <- "
+| Goal or Objective | Assessed by |
+|------|-------|
+| Goal 1.0: Demonstrate Business Disciplinary Competence | The exams and homeworks will evaluate both equity and fixed income security valuation. |
+| Goal 3.0 (Objectives 3.1 and 3.2): Communicate Effectively Orally and in Written Form |  The presentation of a student created Excel spreadsheet to  calculate stock option prices using the Black-Scholes(1973) model |
+| Goal 4.0 Objectives 4.1 and 4.3): Demonstrate Analytical Thinking Skills | Students will learn to value securities by the principle of no­arbitrage. Further, students will discern which derivative securities may be valued by no­arbitrage and which may not|
+| Goal 5.0: Understand Global Issues in the Functional Areas of Business |  New exchanges spanning of multiple continents (e.g. NYSE Euronext) will be discussed with particular attention being paid to their effect on the investment landscape. |
+| Goal 6.0 (Objectives 6.1 and 6.3): Demonstrate Effective Use of Technology and Data Analysis |  In both homeworks and these project, students will value complex securities using Excel. |
+| Objectives 1.1 (knowledge of a key business discipline), 4.1 (interpretation of evidence), 4.3 (formulation of conclusions), and 6.3 (understanding data analysis) |  Students will measure both individual asset and portfolio risk and return. Through analyzing the effect of portfolio construction on risk and return, students will derive the CAPM. After a discussion of the assumptions of the CAPM, students will weigh the model against the APT. |
+
+"
+cat(tabl)
+```
+</center>
+
+## Exams
+
+There will be three exams (two during the semester and a final exam). Normally no make-up exams will be given.  Failure to take an exam will result in a grade of zero for the missed exam.  Make-up exams will only be allowed for *extraordinary* and *verifiable* reasons.
+
+<!---
+\begin{center}
+{\bf HOMEWORK} 
+\end{center}
+\begin{itemize}
+\item {\bf Written:} Three written homework assignments will be assigned during the semester (they will be
+end-of-chapter problems from the text). The three homework assignments will be due the week before
+each exam. Each homework will be worth 3 and 1/3 final grade points. Late homework will not be
+accepted.
+%
+-->
+
+## Trading/Other Assignments
+
+I'll assign several homeworks throughout the
+semester that involve either trading in your brokerage accounts, or downloading data in R and
+performing some calculation/analyses. If I give pop quizzes, these grades will be included here. 
+
+## Brokerage Accounts
+
+We will use paper trading accounts provided by Interactive Brokers. These
+trading accounts are the exact same as the actual brokerage accounts---except the money isn’t real.
+You will have access to (and real data from) stock, bond, commodity, and foreign exchange markets.
+While the data alone is worth a fair amount of money, Interactive Brokers is offering the accounts to us
+for free. Keep this in mind while following the directions to set up your account customer service will
+be nonexistent. **If you lose your password, or forget your username, etc, you will not have an
+account for the semester.** In this case you will have to trade in another student’s account, or mine.
+Please pay attention while setting up your account, and write everything down.
+
+See [**here**](#brti) example of the data we can pull using our IB accounts.  You may want to think if interesting projects/analyses you can do with access to such data.
+
+## Black-Scholes Project
+
+In groups, students will create a spreadsheet which will value an option on a non-dividend
+paying stock using the Black-Scholes (1973) option pricing model. Further, the group must calculate
+the stock's historical annualized volatility. To do so the group must show it is able to download a recent
+time series of the underlying stock price, convert these prices into a time series of returns, calculate the
+standard deviation of the returns, and then annualize the standard deviation (this is the stock annualized
+volatility which is a parameter in the option pricing model). Each student in the group must be ready to
+explain any part of the spreadsheet. In the event a student in a group cannot sufficiently answer
+questions regarding the calculations, the student may receive a lower grade than the rest of the group. 
+
+## Optional Web App Project
+
+Students will create a Shiny interactive web application.  To do so you'll first need to sign up for a free [shinyapps](https://www.shinyapps.io/) account.
+
+You are free to create the account under a pseudonym, so no one can publicly identify you as the owner of the account.  However, the web application is a useful tool to show off your work, and is something that can go on your resume (with a link to the application).  So you may prefer to use your real name.  My user name is `mattbrigida`.
+
+Your application should have something to do with financial markets, and should be at least somewhat original.  See this [gallery of applications](http://shiny.rstudio.com/). Possible applications may be:
+
+- Plot a time series of stock prices, returns, or volatility.
+- **Financial Advisers:**  Create an app which will return target asset allocation given a person's age and investing goals/risk tolerance.
+- Create and plot a stock index.
+- A Black-Scholes calculator.
+- A margin calculator.
+- Create a histogram or probability density plot for bond or stock returns.
+
+To get started you will want to use the RStudio development environment for R.  This is available in the Still hall computer lab, or you can install it for free on your own computer [from here](https://www.rstudio.com/products/rstudio/download/).  If you install it on your own computer you'll need to install R first.  You can get [R here](https://cran.r-project.org/) 
+
+## Course Communication
+
+All important/official announcements will either be posted on Blackboard or emailed to each student's SUNY Poly email account. In the past I have posted helpful information to: [Complete Markets](http://www.complete-markets.com).  To see information relating to your course type `FIN 376` in the search bar at the upper left of the web page. However, in the future I will post to [my GitHub io site](https://matt-brigida.github.io).  Some examples of helpful information are spreadsheets which assist in studying for exams or completing homeworks, answers to questions other students have asked (of course I will not include who asked the question), and useful [R](http://www.r-project.org) code.  You can see most of the code I write in my [GitHub repos](https://github.com/Matt-Brigida).
+
+## Grading
+
+<center>
+
+```{r grading, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tabl <- "
+| Item | Points |
+| ---- | ------ |
+| Exam 1 |  20 |
+| Exam 2 |  20 |
+| Final Exam |  20 |
+| Trading Assignments/Other | 20 |
+| Black Scholes (or Web App) | 20 |
+| Total Points | 100 |
+"
+cat(tabl)
+```
+</center>
+
+<center>
+**Final grades will be assigned according to the following scale**:
+</center>
+
+- 90 - 100 A
+- 80 - 89.9 B
+- 70 - 79.9 C
+- 60 - 69.9 D
+- < 60 F
+
+> +/- grades may be assigned at the instructors discretion.
+
+
+## An Important Note on Grading
+
+There is no special consideration if you need a certain grade in this course to graduate.  **If you require a certain grade in this class to graduate it is your responsibility to earn that grade.** Specifically if you receive a `D` in this course I will not allow you to do extra assignments after the course is complete in exchange for a higher grade. 
+
+## General Notes
+
+#. The instructor is not involved in any way with your adding and dropping the course.  It is the student's responsibility to abide by all proper procedures and dates.
+#. Attending class, and reading the text is required.
+#. All exams will be closed book.
+#. If you are late for an exam, no extra time will be allotted to you.
+#. There will be no make up exams or extra points assignments.
+#. You will be responsible for any material covered in class that is not in your text.
+#. You should bring your text to class.
+#. You are expected to be on time for class. This is especially important for exam
+dates.
+#. Disruptive behavior in the classroom will not be tolerated.
+#. You may not use tobacco products in class.
+
+## Tentative Outline
+
+<!-- - 8/27: Chapter 1 -->
+<!-- - 9/3:  Chapter 2 \& 3 -->
+<!-- - 9/10: Chapter 3 \& 4 -->
+<!-- - 9/17: Chapter 14 -->
+<!-- - 9/24: (exam review)  -->
+<!-- - 10/1: **10/03 (Exam 1)** & Chapter 15 -->
+<!-- - 10/8 Chapter 16 -->
+<!-- - 10/15: Chapter 20 -->
+<!-- - 10/22: Chapter 21 -->
+<!-- - 10/29: (exam review)  -->
+<!-- - 11/5: **11/7 (Exam 2)** & Chapter 21 -->
+<!-- - 11/12: Chapter 22 -->
+<!-- - 11/19: Chapter 23 -->
+<!-- - 11/26--12/8: Trading, exam review, **and the last day to present your projects.** -->
+<!-- - 12/10: Finals Week -->
+
+- 1/22: Chapter 1
+- 1/28:  Chapter 2 \& 3
+- 2/4:  Chapter 3 \& 4
+- 2/11:Chapter 14
+- 2/18: (exam review)
+- 2/25: **Exam 1** & Chapter 15
+- 3/4:  Chapter 16
+- 3/11: Spring Break 
+- 3/18: Chapter 20
+- 3/25: Chapter 21
+- 4/1: (exam review)
+- 4/8: **Exam 2** & Chapter 21
+- 4/15:Chapter 22 
+- 4/22: Chapter 23
+- 4/29: Trading, exam review, **and the last day to present your projects.**
+- 5/6: Finals Week
+
+## BRTI Tick Data {#brti}
+
+Below are millisecond data for the Bitcoin Real-Time Index on Jan 3, 2018.  The data are pulled via the IB API.  With data of this type, you can dicover interesting features of market data---for example, notice the "last trade" is often outside of the bid/offer.  This is particularly important to understand when trading illiquid contracts, such as some options.  You can left-click your mouse, and drag, to zoom in on subintervals.
+
+```{r error=FALSE, warning=FALSE, eval = TRUE}
+library(dygraphs)
+
+book <- readRDS("./jan_fut_12_18_book.rds")
+
+dygraph(book['2018-01-03 09:30:00/2018-01-03 16:00:00'])
+
+```
+
+## Course Syllabus Disclosure Statement Spring 2019
+
+>Accommodations for Students with Disabilities
+
+>In compliance with the Americans with Disabilities Act of 1990 and Section 504 of the Rehabilitation Act, SUNY Polytechnic Institute is committed to ensuring comprehensive educational access and accommodations for all registered students seeking access to meet course requirements and fully participate in programs and activities.  Students with documented disabilities or medical conditions are encouraged to request these services by registering with the Office of Disability Services.  For information related to these services or to schedule an appointment, please contact the Office of Disability Services using the information provided below.
+
+>Evelyn Lester, Director
+>Office of Disability Services
+>lestere@sunypoly.edu
+>(315) 792-7170
+>
+>Utica Campus
+>Peter J. Cayan Library, L145
+>
+>Albany Campus
+>Suite 309, Students Services Office
+>NanoFab South
