@@ -36,13 +36,13 @@ opts_knit$set(width=75)
 
 **Office**: Donovan 1277
 
-**Office Hours**: Tuesday 4:00--6:00 and Monday/Wednesday 11:00--12:00
+<!-- **Office Hours**: Tuesday 4:00--6:00 and Monday/Wednesday 11:00--12:00 -->
 
 **Email**: matthew.brigida@sunyit.edu
 
-**Class Location**:  *Hybrid*, DON 1146.
+**Class Location**:  *Online*
 
-**Class Day/Time**: MW, 12:00---1:50pm
+**Class Day/Time**: Asychronous
 
 **Text**: [*Investments* by Bodie, Kane, and Marcus, 8th edition (or later), ISBN: 0077261453](http://www.amazon.com/Investments-8th-Edition-Zvi-Bodie/dp/0077261453/ref=sr_1_5?ie=UTF8&qid=1407685749&sr=8-5&keywords=investment+bodie+kane+marcus)
 
@@ -248,14 +248,12 @@ dates.
 <!-- - 11/26--12/8: Trading, exam review, **and the last day to present your projects.** -->
 <!-- - 12/10: Finals Week -->
 
-- 1/22: Chapter 1
-- 1/28:  Chapter 2 \& 3
-- 2/4:  Chapter 3 \& 4
+- 5/20: Chapters 1, 2, 3
+- 5/27:  Chapter 3 \& 4
 - 2/11:Chapter 14
 - 2/18: (exam review)
 - 2/25: **Exam 1** & Chapter 15
 - 3/4:  Chapter 16
-- 3/11: Spring Break 
 - 3/18: Chapter 20
 - 3/25: Chapter 21
 - 4/1: (exam review)
