@@ -42,7 +42,7 @@ opts_knit$set(width=75)
 
 **Class Location**:  *Online*
 
-**Class Day/Time**: Asychronous
+**Class Day/Time**: Asynchronous
 
 **Text**: [*Investments* by Bodie, Kane, and Marcus, 8th edition (or later), ISBN: 0077261453](http://www.amazon.com/Investments-8th-Edition-Zvi-Bodie/dp/0077261453/ref=sr_1_5?ie=UTF8&qid=1407685749&sr=8-5&keywords=investment+bodie+kane+marcus)
 
@@ -115,7 +115,7 @@ cat(tabl)
 
 ## Exams
 
-There will be three exams (two during the semester and a final exam). Normally no make-up exams will be given.  Failure to take an exam will result in a grade of zero for the missed exam.  Make-up exams will only be allowed for *extraordinary* and *verifiable* reasons.
+There will be two exams. Normally no make-up exams will be given.  Failure to take an exam will result in a grade of zero for the missed exam.  Make-up exams will only be allowed for *extraordinary* and *verifiable* reasons.
 
 <!---
 \begin{center}
@@ -248,24 +248,18 @@ dates.
 <!-- - 11/26--12/8: Trading, exam review, **and the last day to present your projects.** -->
 <!-- - 12/10: Finals Week -->
 
-- 5/20: Chapters 1, 2, 3
-- 5/27:  Chapter 3 \& 4
-- 2/11:Chapter 14
-- 2/18: (exam review)
-- 2/25: **Exam 1** & Chapter 15
-- 3/4:  Chapter 16
-- 3/18: Chapter 20
-- 3/25: Chapter 21
-- 4/1: (exam review)
-- 4/8: **Exam 2** & Chapter 21
-- 4/15:Chapter 22 
-- 4/22: Chapter 23
-- 4/29: Trading, exam review, **and the last day to present your projects.**
-- 5/6: Finals Week
+- 5/20: Chapters 1, 2
+- 5/27:  Chapter 3, 4
+- 6/3: Exam 1 / Trading Assignments
+- 6/10:  Chapter 20
+- 6/17:  Chapter 21
+- 6/24: Chapter 22
+- 7/1:  Chapter 23
+- 7/8: Exam 2 / Trading Assignments / Option Valuation Spreadsheet
 
 ## BRTI Tick Data {#brti}
 
-Below are millisecond data for the Bitcoin Real-Time Index on Jan 3, 2018.  The data are pulled via the IB API.  With data of this type, you can dicover interesting features of market data---for example, notice the "last trade" is often outside of the bid/offer.  This is particularly important to understand when trading illiquid contracts, such as some options.  You can left-click your mouse, and drag, to zoom in on subintervals.
+Below are millisecond data for the Bitcoin Real-Time Index on Jan 3, 2018.  The data are pulled via the IB API.  With data of this type, you can discover interesting features of market data---for example, notice the "last trade" is often outside of the bid/offer.  This is particularly important to understand when trading illiquid contracts, such as some options.  You can left-click your mouse, and drag, to zoom in on subintervals.
 
 ```{r error=FALSE, warning=FALSE, eval = TRUE}
 library(dygraphs)
