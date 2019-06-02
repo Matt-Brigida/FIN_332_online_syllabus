@@ -133,9 +133,9 @@ accepted.
 
 The set of trading assignments required for the course are in the Content section of Blackboard.  The full set of trading assignments, including some that you may not have to complete, are (here)[https://github.com/Matt-Brigida/fin-332-trading-assignments].
 
-## Mean-Variance Optimal Portfolio 
+## Mean-Variance Optimal Portfolio or Market Depth Projects
 
-Instead of completing the trading assignments, you may choose to construct an mean-variance optimal portfolio.  To complete this project see the folder in the Content section of Blackboard.
+Instead of completing the trading assignments, you may choose to complete the mean-variance optimal portfolio **or** market depth projects.  To complete either of these projects, see the respective folder in the Content section of Blackboard.
 
 ## Brokerage Accounts
 
