@@ -129,11 +129,13 @@ accepted.
 %
 -->
 
-## Trading/Other Assignments
+## Trading Assignments
 
-I'll assign several homeworks throughout the
-semester that involve either trading in your brokerage accounts, or downloading data in R and
-performing some calculation/analyses. If I give pop quizzes, these grades will be included here. 
+The set of trading assignments required for the course are in the Content section of Blackboard.  The full set of trading assignments, including some that you may not have to complete, are (here)[https://github.com/Matt-Brigida/fin-332-trading-assignments].
+
+## Mean-Variance Optimal Portfolio 
+
+Instead of completing the trading assignments, you may choose to construct an mean-variance optimal portfolio.  To complete this project see the folder in the Content section of Blackboard.
 
 ## Brokerage Accounts
 
@@ -190,8 +192,8 @@ tabl <- "
 | ---- | ------ |
 | Exam 1 |  25 |
 | Exam 2 |  25 |
-| Trading Assignments/Other | 25 |
-| Black Scholes (or Web App) | 25 |
+| Trading Assignments **or** Optimal Portfolio Project | 25 |
+| Black Scholes | 25 |
 | Total Points | 100 |
 "
 cat(tabl)
