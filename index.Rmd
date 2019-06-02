@@ -192,8 +192,8 @@ tabl <- "
 | ---- | ------ |
 | Exam 1 |  25 |
 | Exam 2 |  25 |
-| Trading Assignments **or** Optimal Portfolio Project | 25 |
-| Black Scholes | 25 |
+| Trading Assignments **or** Optimal Portfolio Project **or** Market Depth Project | 25 |
+| Black Scholes Option Valuation Spreadsheet | 25 |
 | Total Points | 100 |
 "
 cat(tabl)
